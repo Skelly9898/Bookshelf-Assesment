@@ -1,0 +1,79 @@
+body {
+background-image: url('https://cdn.wallpapersafari.com/79/26/OR6dW5.jpg');
+/* background-repeat: no-repeat; */
+}
+
+div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+label {
+    color: floralwhite;
+}
+
+.commentSection {
+    color: floralwhite;
+    width: 100%;
+}
+
+.commentButton {
+    width: 100%;
+}
+
+.commentLine{
+    width: 100%;
+}
+
+#inputArea {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 20%;
+    border: solid 5px blue;
+}
+
+.inputName {
+    display: flex;
+    text-align: left;
+    padding-right: 10px;
+    border: solid 1px red;
+}
+
+.books {
+    background-image: url('bookBackground.jpeg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    max-width: 15%;
+    height: 400px;
+    display: flex;
+    margin-bottom: 10px;
+    margin-left: 6%;
+    margin-right: 6%;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+    overflow: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    scrollbar-width: none;
+    border: 3px solid black;
+}
+
+.books::-webkit-scrollbar {
+    display: none;
+    /* for Chrome, Safari, and Opera */
+  }
+
+.welcome {
+    font-size: 100px;
+}
+
+.text {
+    color: floralwhite;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 100%;
+    text-align: center;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <h1 class="welcome text">Welcome<br>To The Library</h1>
+    <div id="navMenu">
+        <h4><a href="about.html">About</a></h4>
+        <h4><a href="contact.html">Contact</a></h4>
+    </div>
+    <section id="inputArea">
+        <label class="inputName">
+            Title<br><input id="title">
+        </label>
+        <label class="inputName">
+            Author(s)<br><input id="author">
+        </label>
+        <label class="inputName">
+            Subject(s)<br><input id="subject">
+        </label>
+        <label class="inputName">
+            Language<br><input id="language">
+        </label>
+        <button id="newBookButton">Add Book</button>
+    </section>
+    
+    <script src="./js/book-data.js"></script>
+    <script src="./js/book.js"></script>
+    <script src="./js/bookshelf.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
